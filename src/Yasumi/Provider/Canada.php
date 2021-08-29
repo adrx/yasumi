@@ -139,7 +139,8 @@ class Canada extends AbstractProvider
     /**
      * Civic Holiday.
      *
-     * @see https://en.wikipedia.org/wiki/Civic_Holiday
+     * @see https://en.wikipedia.org/wiki/Canada_Day and Holidays Act, R.S.C., 1985, c. H-5
+     * by statute, Canada Day is July 1 if that day is not Sunday, and July 2 if July 1 is a Sunday
      *
      * @throws \InvalidArgumentException
      * @throws UnknownLocaleException

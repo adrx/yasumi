@@ -53,6 +53,13 @@ class CanadaDayTest extends CanadaBaseTestCase implements HolidayTestCase
             $year,
             new \DateTime("$year-07-02", new \DateTimeZone(self::TIMEZONE))
         );
+        $year = 2018; // July 1 is Sunday
+        $this->assertHoliday(
+            self::REGION,
+            self::HOLIDAY,
+            $year,
+            new DateTime("$year-07-02", new DateTimeZone(self::TIMEZONE))
+        );
     }
 
     /**
