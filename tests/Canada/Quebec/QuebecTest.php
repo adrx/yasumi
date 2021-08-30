@@ -45,6 +45,7 @@ class QuebecTest extends QuebecBaseTestCase implements ProviderTestCase
         $holidays = [
             'goodFriday',
             'christmasDay',
+            'easterMonday',
             'saintJeanBaptisteDay',
         ];
 

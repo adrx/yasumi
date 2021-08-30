@@ -45,6 +45,7 @@ class Nunavut extends Canada
 
         $this->timezone = 'America/Iqaluit';
 
+        $this->addHoliday($this->easterMonday($this->year, $this->timezone, $this->locale));
         $this->calculateCivicHoliday();
         $this->calculateVictoriaDay();
     }

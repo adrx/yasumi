@@ -47,6 +47,7 @@ class Quebec extends Canada
 
         $this->timezone = 'America/Toronto';
 
+        $this->addHoliday($this->easterMonday($this->year, $this->timezone, $this->locale));
         $this->addHoliday($this->saintJeanBaptisteDay($this->year, $this->timezone, $this->locale));
         $this->calculateNationalPatriotsDay();
     }

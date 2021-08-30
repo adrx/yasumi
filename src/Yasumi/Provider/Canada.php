@@ -50,7 +50,7 @@ class Canada extends AbstractProvider
         $this->addHoliday($this->christmasDay($this->year, $this->timezone, $this->locale));
         $this->addHoliday($this->secondChristmasDay($this->year, $this->timezone, $this->locale));
         $this->addHoliday($this->goodFriday($this->year, $this->timezone, $this->locale));
-        $this->addHoliday($this->easterMonday($this->year, $this->timezone, $this->locale));
+//        $this->addHoliday($this->easterMonday($this->year, $this->timezone, $this->locale));
 
         // Calculate other holidays
         $this->calculateCanadaDay();

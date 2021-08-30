@@ -45,7 +45,7 @@ class CanadaTest extends CanadaBaseTestCase implements ProviderTestCase
         $this->assertDefinedHolidays([
             'newYearsDay',
             'goodFriday',
-            'easterMonday',
+//            'easterMonday',
             'canadaDay',
             'labourDay',
             'remembranceDay',
