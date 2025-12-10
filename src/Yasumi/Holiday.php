@@ -185,7 +185,7 @@ class Holiday extends \DateTime implements \JsonSerializable
      * @see Holiday::DEFAULT_LOCALE
      * @see Holiday::LOCALE_KEY
      */
-    public function getName(array $locales = null): string
+    public function getName(?array $locales = null): string
     {
         $locales = $this->getLocales($locales);
         foreach ($locales as $locale) {
